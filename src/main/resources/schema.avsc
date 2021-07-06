@@ -1,0 +1,50 @@
+{
+  "type": "record",
+  "name": "stock_ticks",
+  "fields": [
+    {
+      "name": "uuid",
+      "type": "string"
+    },
+    {
+      "name": "ts",
+      "type": "long"
+    },
+    {
+      "name": "symbol",
+      "type": "string"
+    },
+    {
+      "name": "year",
+      "type": "int"
+    },
+    {
+      "name": "month",
+      "type": "int"
+    },
+    {
+      "name": "high",
+      "type": "double"
+    },
+    {
+      "name": "low",
+      "type": "double"
+    },
+    {
+      "name": "key",
+      "type": "string"
+    },
+    {
+      "name": "close",
+      "type": "double"
+    },
+    {
+      "name": "open",
+      "type": "double"
+    },
+    {
+      "name": "day",
+      "type": "string"
+    }
+  ]
+}
